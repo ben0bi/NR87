@@ -1,0 +1,263 @@
+/* Base CSS for the GIMLI-System
+	by Benedict Jäggi in 19
+	https://benis-bastelschuppen.github.io
+	https://github.com/ben0bi
+*/
+
+@font-face {
+  font-family: 'pixel_regular';
+  src: url('../fonts/basis33.ttf');
+}
+
+@font-face {
+  font-family: 'gimli_highlight';
+  src: url('../fonts/pcsenior.ttf');
+}
+
+@font-face {
+  font-family: 'gimli_text';
+  src: url('../fonts/basis33.ttf');
+}
+
+html, body
+{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	/*border: 1px solid #00FF00;*/
+}
+
+body
+{
+	background-color: #333369;
+	background-image: url('../images/GIMLI_BACKGROUND_SEAMLESS.png');
+}
+
+a, a:visited
+{
+	color: #FFAA00;
+	text-decoration: none;
+}
+a:hover
+{
+	color: #FFFF00;
+}
+
+/* the gimli main window (OUTER PART) where all the action happens */
+/* Desktop only at this time. */
+#gimli-outer-window
+{
+	position: relative;
+	border: 2px solid #0033FF;
+	width: 800px;
+	height: 600px;
+	top: 50%;
+	left: 50%;
+    	transform: perspective(1px) translateY(-50%) translateX(-50%);
+	overflow: hidden;
+	z-index: 10;
+}
+
+/* the gimli main window (INNER PART) where all the action happens,
+here all images will be appended and other stuff. */
+/* Desktop only at this time. */
+#gimli-main-window, #gimli-middle-window
+{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+    top: 0px;
+	left: 0px;
+	background-color: #000033;
+	overflow: hidden;
+	/* The background and other sizes will be calculated with the scale factor in the gml file. */
+	/*background-size: 200% 200%;*/ /* BG should have the same size like the gimli-image */
+}
+
+/* loading content window. */
+#gimli-wait-window
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #000011;
+	/*display: none;*/
+	text-align: center;
+	z-index: 10000;
+}
+
+.gimli-waitcontainer
+{
+	width: 100%;
+	text-align: center;
+	font-weight: bolder;
+}
+
+/* some modifications for the wait screen content. */
+.gimli-waitcontent
+{
+	width: 100%;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 33pt;
+	font-family: 'gimli_highlight', monospace, sans-serif;
+	color: #339633;
+}
+
+/* same for the wait screen message. */
+.gimli-wait-message
+{
+	width: 100%;
+	text-align: center;
+	font-weight: bolder;
+	font-size: 16pt;
+	font-family: 'gimli_highlight', monospace, sans-serif;
+	color: #339633;
+}
+
+/* the footer where the console link is. */
+#gimli-footer-window
+{
+	position: absolute;
+	bottom: 10px;
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	font-family: 'pixel_regular', monospace;
+	/*border: 1px solid #00ff00;*/
+}
+
+/* a general image in the gimli engine */
+.gimli-image
+{
+	/* width and height are determined by the scale factor in the surrounding div. */
+	width: 100%;
+	height: 100%;
+	/* make it pixel perfect */
+	-ms-interpolation-mode: nearest-neighbor; /* IE 7+ (non-standard property) */
+	image-rendering: -webkit-optimize-contrast; /* Safari 6, UC Browser 9.9 */
+	image-rendering: -webkit-crisp-edges; /* Safari 7+ */
+	image-rendering: -moz-crisp-edges; /* Firefox 3.6+ */
+	image-rendering: -o-crisp-edges; /* Opera 12 */
+	image-rendering: pixelated; /* Chrome 41+ and Opera 26+ */
+}
+
+/* a giml item */
+.gimli-item {position: absolute;}
+
+/* a giml description or name text, (short). */
+.gimli-text
+{
+	position: absolute;
+	min-width: 100px;
+	z-index: 10000;
+	font-family: "gimli_highlight", monospace;
+	font-size: 8pt;
+	line-height: 12pt;
+	max-width: 100%;
+	padding: 5px;
+}
+
+/* a gimli panel containing text and several answers */
+.gimli-panel
+{
+	position: absolute;
+	left: 2.5%;
+	top: 2.5%;
+	border-radius: 5px;
+	border: 3px solid #0000AA;
+	color: #FFFFFA;
+	z-index: 100;
+	/*background-color: #0000AA;*/
+	background-image: url('../images/GIMLI_TEXT_BACKGROUND.png');
+	font-family: "gimli_text", monospace;
+	font-size: 14pt;
+	max-width: 90%;
+	padding: 10px;
+	scrollbar-color: #0000AA #FFFFFA;
+	box-shadow: inset 2px 2px #FFFFFA, inset -2px -2px #FFFFFA;
+}
+
+/* a button on a gimli-panel */
+.gimli-panel-button
+{
+	margin: 0 auto;
+	border-radius: 5px;
+	border: 3px solid #FFFFFA;
+	color: #FFFFFA;
+/*	background-color: #0000AA;*/
+	background-image: url('../images/GIMLI_TEXT_BACKGROUND.png');
+	font-family: "gimli_highlight", monospace;
+	font-size: 8pt;
+	width: 90%;
+	padding: 5px;
+	margin-top: 5px;
+}
+.gimli-panel-button:hover
+{
+	background-image: none;
+	background-color: #FFFFFA;
+	color: #0000AA;
+	border-color: #0000AA;
+	cursor: pointer;
+}
+
+/* the div where the panel buttons reside in is max 30% of the whole screen height.
+	but only if the whole panel is bigger than the display.
+	this will be determined in code.
+*/
+.gimli-panel-buttondiv 
+{
+	width: 100%;
+	/*border-top: 2px solid #FFFFFA;*/
+	padding-top: 10px;
+	overflow-x: hidden; 
+	overflow-y: auto;
+}
+
+/* same with the content div, but 70% */
+.gimli-panel-contentdiv 
+{
+	width: 100%; 
+	overflow-x: hidden; 
+	overflow-y: auto;
+}
+
+
+/* description text for a giml item. */
+#gimli-text-description 
+{
+	color: #33AA33;
+	background-image: url('../images/GIMLI_TEXT_BACKGROUND.png');
+	border-radius: 4px;
+}
+
+/* make something pixel perfect (same as image without size) */
+.gimli-pixelperfect
+{
+	/* make it pixel perfect */
+	-ms-interpolation-mode: nearest-neighbor; /* IE 7+ (non-standard property) */
+	image-rendering: -webkit-optimize-contrast; /* Safari 6, UC Browser 9.9 */
+	image-rendering: -webkit-crisp-edges; /* Safari 7+ */
+	image-rendering: -moz-crisp-edges; /* Firefox 3.6+ */
+	image-rendering: -o-crisp-edges; /* Opera 12 */
+	image-rendering: pixelated; /* Chrome 41+ and Opera 26+ */
+}
+
+/* center a div vertically */
+.gimli-verticalcenter
+{
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+

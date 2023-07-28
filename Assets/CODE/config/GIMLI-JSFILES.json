@@ -1,0 +1,12 @@
+{
+	"//": "JS Files for the GIMLI System.",
+	"//": "By Benedict Jäggi in 19",
+	"//": "https://github.com/ben0bi/GIMLI",
+	
+	"jQuery": "js/jquery-3.3.1.min.js",
+
+	"Benis Console": "js/jBash.js",
+	"GIMLI-PARSER": "js/gimli-parser.js",
+	"GIMLI-STRUCTURES": "js/gimli-standard-parsers.js",
+	"GIMLI-BASE": "js/gimli-adventure-interpreter.js"
+}

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>NETRUN '87</title>
+<meta charset = "utf-8" />
+</head>
+<body>
+	<script src="js/JSFILELOADER.js"></script>
+	<script>
+	function main()
+	{
+		GIMLI.init("testsite/index.gml");
+		log("All JS files loaded. GIMLI initialized.");
+	}
+	JSFILELOADER.recursiveLoad('config/GIMLI-JSFILES.json', main);
+	</script>
+</body>
+</html>
