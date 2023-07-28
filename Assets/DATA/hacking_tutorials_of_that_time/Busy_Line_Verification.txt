@@ -1,0 +1,338 @@
+                            ==Phrack Inc.==
+
+                  Volume Two, Issue Eleven, Phile #10 of 12
+
+                            BUSY LINE VERIFICATION
+
+                         WRITTEN BY PHANTOM PHREAKER
+
+
+    This file describes how a TSPS operator does a BLV (Busy Line
+Verification) and an EMER INT (Emergency Interrupt) upon a busy line that a
+customer has requested to be 'broken' into. I have written this file to
+hopefully clear up all the misconceptions about Busy Line Verification and
+Emergency Interrupts.
+
+    BLV is 'Busy Line Verification'. That is, discovering if a line is
+busy/not busy. BLV is the telco term, but it has been called Verification,
+Autoverify, Emergency Interrupt, break into a line, REMOB, and others. BLV is
+the result of a TSPS that uses a Stored Program Control System (SPCS) called
+the Generic 9 program. Before the rise of TSPS in 1969, cordboard operators
+did the verification process. The introduction of BLV via TSPS brought about
+more operator security features. The Generic 9 SPCS and hardware was first
+installed in Tucson, Daytona, and Columbus, Ohio, in 1979. By now virtually
+every TSPS has the Generic 9 program.
+
+    A TSPS operator does the actual verification. If caller A was in the 815
+Area code, and caller B was in the 314 Area code, A would dial 0 to reach a
+TSPS in his area code, 815. Now, A, the customer, would tell the operator he
+wished an emergency interrupt on B's number, 314+555+1000. The 815 TSPS op who
+answered A's call cannot do the interrupt outside of her own area code, (her
+service area), so she would call an Inward Operator for B's area code, 314,
+with KP+314+TTC+121+ST, where the TTC is a Terminating Toll Center code that
+is needed in some areas. Now a TSPS operator in the 314 area code would be
+reached by the 815 TSPS, but a lamp on the particular operators console would
+tell her she was being reached with an Inward routing. The 815 operator then
+would say something along the lines of  she needed an interrupt on
+314+555+1000, and her customers name was J. Smith. Now, the 314 Inward (which
+is really a TSPS) would dial B's number, in a normal Operator Direct Distance
+Dialing (ODDD) fashion. If the line wasn't busy, then the 314 Inward would
+report this to the 815 TSPS, who would then report to the customer (caller A)
+that 314+555+1000 wasn't busy and he could call as normal. However if the
+given number (in this case, 314+555+1000) was busy, then several things would
+happen and the process of BLV and EMER INT would begin. The 314 Inward would
+seize a Verification trunk (or BLV trunk) to the toll office that served the
+local loop of the requested number (555+1000). Now another feature of TSPS
+checks the line asked to be verified against a list of lines that can't be
+verified, such as radio stations, police, etc. If the line number a customer
+gives is on the list then the verification cannot be done, and the operator
+tells the customer.
+
+    Now the TSPS operator would press her VFY (VeriFY) key on the TSPS
+console, and the equipment would outpulse (onto the BLV trunk)
+KP+0XX+PRE+SUFF+ST. The KP being Key Pulse, the 0XX being a 'screening code'
+that protects against trunk mismatching, the PRE being the Prefix of the
+requested number (555), the SUFF being the Suffix of the requested number
+(1000), and the ST being STart, which tells the Verification trunk that no
+more MF digits follow. The screening code is there to keep a normal Toll
+Network (used in regular calls) trunk from accidentally connecting to a
+Verification trunk. If this screening code wasn't present, and a trunk
+mismatch did occur, someone calling a friend in the same area code might just
+happen to be connected to his friends line, and find himself in the middle of
+a conversation. But, the Verification trunk is waiting for an 0XX sequence,
+and a normal call on a Toll Network trunk does not outpulse an 0XX first.
+(Example: You live at 914+555+1000, and wish to call 914+666+0000. The routing
+for your call would be KP+666+0000+ST. The BLV trunk cannot accept a 666 in
+place of the proper 0XX routing, and thus would give the caller a re-order
+tone.) Also, note that the outpulsing sequence onto a BLV trunk can't contain
+an Area Code. This is the reason why if a customer requests an interrupt
+outside of his own NPA, the TSPS operator must call an Inward for the area
+code that can outpulse onto the proper trunk. If a TSPS in 815 tried to do an
+interrupt on a trunk in 314, it would not work. This proves that there is a
+BLV network for each NPA, and if you somehow gain access to a BLV trunk, you
+could only use it for interrupts within the NPA that the trunk was located in.
+
+    BLV trunks 'hunt' to find the right trunks to the right Class 5 End Office
+that serves the given local loop. The same outpulsing sequence is passed along
+BLV trunks until the BLV trunk serving the Toll Office that serves the given
+End Office is found.
+
+    There is usually one BLV trunk per 10,000 lines (exchange). So, if a Toll
+Office served ten End Offices, that Toll Office would have 100,000 local loops
+that it served, and have 10 BLV trunks running from TSPS to that Toll Office.
+
+    Now, the operator (in using the VFY key) can hear what is going on on the
+line, (modem, voice, or a permanent signal, indicating a phone off-hook) and
+take appropriate action. She can't hear what's taking place on the line
+clearly, however. A speech scrambler circuit within the operator console
+generates a scramble on the line while the operator is doing a VFY. The
+scramble is there to keep operators from listening in on people, but it is not
+enough to keep an op from being able to tell if a conversation, modem signal,
+or a dial tone is present upon the line. If the operator hears a permanent
+signal, she can only report back to the customer that either the phone is
+off-hook, or there is a problem with the line, and she can't do anything about
+it. In the case of caller A and B, the 314 Inward would tell the 815 TSPS, and
+the 815 TSPS would tell the customer. If there is a conversation on line, the
+operator presses a key marked EMER INT (EMERgency INTerrupt) on her console.
+This causes the operator to be added into a three way port on the busy line.
+The EMER INT key also deactivates the speech scrambling circuit and activates
+an alerting tone that can be heard by the called customer. The alerting tone
+that is played every 10 seconds tells the customer that an operator is on the
+line. Some areas don't have the alerting tone, however. Now, the operator
+would say 'Is this XXX-XXXX?' where XXX-XXXX would be the Prefix and Suffix of
+the number that the original customer requesting the interrupt gave the
+original TSPS. The customer would confirm the operator had the correct line.
+Then the Op says 'You have a call waiting from (customers name). Will you
+accept?'. This gives the customer the chance to say 'Yes' and let the calling
+party be connected to him, while the previous party would be disconnected. If
+the customer says 'No', then the operator tells the person who requested the
+interrupt that the called customer would not accept. The operator can just
+inform the busy party that someone needed to contact him or her, and have the
+people hang up, and then notify the requesting customer that the line is free.
+Or, the operator can connect the calling party and the interrupted party
+without loss of connection.
+
+    The charges for this service (in my area at least) run 1.00 for asking the
+operator to interrupt a phone call so you can get through. There is an .80
+charge if you ask the operator to verify whether the phone you're trying to
+reach is busy because of a service problem or because of a conversation. If
+the line has no conversation on it, there will be no charge for the
+verification.
+
+    When the customer who initiated the emergency interrupt gets his telephone
+bill, the charges for the interrupt call will look similar to this:
+
+12-1   530P     INTERRUPT  CL       314 555 1000  OD     1               1.00
+
+    The 12-1 is December first of the current year; 530P is the time the call
+was made to the operator requesting an interrupt; INTERRUPT CL is what took
+place, that is, an interrupt call; 314 555 1000 is the number requested; OD
+stands for Operator Dialed; the 1 is the length of the call (in minutes); and
+the 1.00 is the charge for the interrupt.  The format may be different,
+depending upon your area and telephone company.
+
+    One thing I forgot to mention about TSPS operators. In places where a
+Remote Trunking Arrangement is being used, and even places where they aren't
+in use, you may be connected to a TSPS operator in a totally different area
+code. In such a case, the TSPS that you reach in a Foreign NPA will call up an
+inward operator for your Home NPA, if the line you requested an EMER INT on
+was in your HNPA. If the line you requested EMER INT on was in the same NPA of
+the TSPS that you had reached, then no inward operator would be needed and the
+answering operator could do the entire process.
+
+    Verification trunks seem to be only accessible by a TSPS/Inward operator.
+However, there have been claims to people doing Emergency Interrupts with blue
+boxes. I don't know how to accomplish an EMER INT without the assistance of an
+operator, and I don't know if it can be done. If you really wish to
+participate in a BLV/EMER INT, call up an Inward Operator and play the part of
+a TSPS operator who needs an EMER INT upon a pre-designated busy line. Billing
+is handled at the local TSPS so you will not have to supply a billing number
+if you decide to do this.
+
+
+    If you find any errors in this file, please try to let me know about it,
+and if you find out any other information that I haven't included, feel free
+to comment.
+
+-End of file-
+
+                               ==Phrack Inc.==
+
+                     Volume Two, Issue 12, Phile #8 of 11
+
+                        BUSY LINE VERIFICATION PART II
+
+                         WRITTEN BY PHANTOM PHREAKER
+
+
+    This file is meant to be an addition to the first file that was included
+in Phrack Inc. Issue XI. It is assumed that the reader has read and understood
+the previous file.  Most of this information will be taken from Bell System
+Publications so you don't have to worry about it being incorrect.
+
+    First off, I'd like to correct a minor error included in the first file. I
+use the format 'KP+0XX+PRE+SUFF+ST' to show the MF routing that is used. This
+is not correct AT&T syntax though, the correct format is KP+0XX+NXX+XXXX+ST.
+This is minor detail, but some people are very picky.
+
+The Verification Network
+------------------------
+
+    In a TSPS office, a verification circuit is associated with a 4-wire
+OutGoing Trunk (OGT) and a 3-way/4-wire bridging repeater arrangement. This is
+the circuit that does the speech scrambling. The speech and other tones (like
+busy and re-order) are frequency shifted, but are still recognizable by a TSPS
+operator.
+
+    TSPS verification trunks are connected via dedicated lines to incoming
+verification trunks in a toll office. The toll office provides either a link
+to an outgoing trunk and dedicated facilities to another toll office, or an
+outgoing toll connecting trunk and dedicated facilities to an incoming
+verification trunk in a local office. Each toll office has ways to check the
+security of verification trunks. In electronic toll offices (ESS offices), two
+independent office data translations provide security of the trunk. Electro-
+mechanical toll offices (Such as a CrossBar Tandem (XBT)) use an electrical
+cross-office check signal or a segregated switching train to control trunk
+connections. Verification trunks relay supervisory signals (such as answering
+supervision) to TSPS from the line being verified. Also, if verification
+trunks are busy, the TSPS operator will receive a re-order.
+
+The functions of the VFY key
+----------------------------
+
+    When the operator presses the VFY key, several checks are made upon the
+number that has been entered. These are:
+    A Check to see if the line is within the verification network accessible
+by that particular TSPS. If the line is not, the VFY key will flash.
+
+    A check to see if the owner of the line wishes BLV to be possible or not.
+If the line is something like a police emergency line, then the VFY key will
+flash, similar to the first check.
+
+Important TSPS keys
+-------------------
+
+    When the VFY lamp lights steady (doesn't flash), indicating the process is
+acceptable, the operator puts the calling customer on hold and accesses an
+idle loop on the operator position. The ACS (Access) lamp lights steady if a
+verification trunk is available at that time. Then, the operator presses the
+ST key which sends out the complete number to be verified, in MF. The
+verification circuit activates, and the operator listens for scrambled speech
+and also watches the CLD (Called) lamp on her console. The CLD lamp is lighted
+when the operator loop was accessed, and will remain lit if the line being
+verified is on-hook. The operator has two ways of seeing if the line is in
+use, by listening, and by watching the CLD lamp. If the CLD lamp light goes
+out, then the line is off-hook.
+
+    If a successful BLV/EMER INT is performed, the operator presses the REC
+MSG MSG (Record Message) key, which completes the verification. If the EMER
+INT lamp is lit, the charges for the interrupt and the verification are
+automatically billed. If the VFY key is pressed twice, it indicates the
+verification should not be billed. This could be due to a customer error or a
+customer disconnect.
+
+Charging capabilities
+---------------------
+
+    A customer can pay for a BLV/EMER INT in several ways. They can have the
+charges put on their phone bill, if they are calling from their home, they can
+bill the charges to an AT&T Calling Card, or pay directly from a coinphone.
+Details of the BLV/EMER INT function are recorded on AMA tape, which is later
+processed at the RAO (Revenue Accounting Office).
+
+    The classes of charge are as follows: STATION PAID, which means exactly
+what it says, STATION SPECIAL CALLING, in cases where billing is handled by a
+Calling Card or third number billing, and NO AMA, in unusual billing cases.
+
+    Also, for BLV/EMER INT calls that originate from a hotel, TSPS can send
+charges to HOBIS (Hotel Billing Information System), HOBIC (Hotel Billing
+Information Center), or a TTY at the hotel.
+
+    AMA records for BLV/EMER INT are recorded in basically the same format
+that normal calls are recorded. The only difference is that a numeric data
+group is added. The leftmost digit in the data group is a 1 if only a BLV was
+done, but it is a 2 if both a BLV and an EMER INT were done. In case of an
+aborted BLV, the billing record is marked 'No charge'.
+
+Inward Operator differences
+---------------------------
+
+    When an Inward operator does BLV/EMER INT, the class of charge is always
+NO AMA, because billing is handled at the local TSPS site. Inwards also do not
+use the REC MSG key when a TSPS would, they use the VFY key in it's place.
+
+The Speech scrambling technique
+-------------------------------
+
+    The speech scrambling technique that exists to keep the customers privacy
+intact is located in the TSPS console, and not in the verification trunks. The
+scrambling technique can only be deactivated by an operator pressing the EMER
+INT key, or a craftsperson using the console in a special mode. When the
+scrambler is deactivated by an operator doing an EMER INT, the customer hears
+an alerting tone (as mentioned in the first BLV file) made up of a 440Hz tone.
+This tone is initially played for two seconds, and then once every ten seconds
+afterwards until the operator presses her Position Release (POS RLS) key.
+
+Operator trouble reporting
+--------------------------
+
+    When operators have trouble in handling a call, they can enter trouble
+reports that are technically called 'Operator keyed trouble reports'. These
+cause messages to be printed on the maintenance TTY and on the trouble report
+TTY channel. There are different trouble codes for different things, such as
+trouble with the speech scrambler, trouble in the verification network, or
+trouble in collecting charges from a customer.
+
+    In my area there are 20 such TSPS trouble codes. These are done in MF.
+They are entered with the KP TRBL (Key Pulse Trouble) key followed by a two
+digit trouble code followed by an ST. A trouble code for beeper trouble could
+be entered as KP TRBL+62+ST, and speech scrambler trouble could be KP
+TRBL+89+ST. Some of the other reasons for trouble codes are: Crosstalk, No
+ring, Noisy, can't hear, improper supervision toward the called and calling
+parties, cutoff, positions crossed, coin collecting trouble, third re-order,
+distant operator no answer, echo, data transmission, no answer supervision, ST
+key lit for more than 4 seconds, and others for person-to-person and
+station-to-station completed collect calls.
+
+Maintenance and traffic measurements
+------------------------------------
+
+    These reports can be output from a maintenance or engineering and service
+data TTY, daily or hourly. Each daily report contains data for the previous
+day. Some traffic counts are as follows:
+    Total Verification attempts, VFY key depressions, VFY key depressions when
+the requested number is out of TSPS range, VFY key depressions in which the
+requested number wasn't verifiable, BLV trunk seizures which pass an
+operational test, and EMER INT attempts. Other traffic counts include the
+measurements for usage of BLV trunks, the amount of time BLV trunks were
+unavailable, and the number of times BLV trunks were seized.
+
+
+    I hope this file has helped people further understand how the BLV system
+works. If you haven't read part I, get a copy of Phrack Inc. Issue XI and read
+file #10.
+
+    As said earlier, most of this information comes directly from Bell System
+Publications and so it should be viewed as correct. However, if you do find
+any errors then please try to let me know about them so they can be corrected.
+
+Suggested reading
+-----------------
+
+TSPS Part I: The console-Written by The Marauder, LOD/H Technical Journal
+Issue No. 1, file #4
+
+Busy Line Verification-Phrack Issue XI, file #10
+
+Busy Verification Conference Circuit-Written by 414 Wizard
+
+Verification-TAP issue 88, Written by Fred Steinbeck
+
+Acknowledgements
+----------------
+Bell System Technical Journal, Vol. 59, No 8.
+Bell Labs RECORD periodical
+
+And the following people for contributing information in some form:
+
+Mark Tabas, Doom Prophet, The Marauder

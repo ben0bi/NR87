@@ -1,0 +1,910 @@
+                                ==Phrack Inc.==
+
+                    Volume One, Issue Five, Phile #10 of 12
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                  ///\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\\\
+Metal Shop PRIVATE\\\  Phrack World News Issue 4 Part 1  ///_  _       _______
+Metal Shop AE      \\\                                  ///| \/ |     / _____/
+Metal Shop Brewery  \\\           Compiled by          /// |_||_|etal/ /hop
+                     \\\                              ///  _________/ /
+Present PWN IV        \\\///\\ Knight Lightning //\\\///  /__________/
+--------------               \-^^^^^^-^^^^^^^^^-/             Triad
+_______________________________________________________________________________
+
+Phrack Inc. Vs. Master Lock Company                               April 1, 1986
+-----------------------------------
+Ok, yeah the date says April 1st, but this NOT a joke.  The following is a
+letter from Chadbourne & Parke.  I am substituting "Taran King" for Taran's
+real name.
+-------------------------------------------------------------------------------
+                                                                 March 26, 1986
+
+Dear Mr. King,
+    This law firm is counsel to Master Lock Company.  Our client has recently
+been alerted to the dissemination through a Bulletin Board Computer Service
+located at your address of information potentially damaging to its commercial
+interests and business relationships.  More particularly, we refer to the
+publication by such computer service of instructions for picking combination
+locks manufactured by Master Lock Company.
+
+    We write to notify you of Master Lock Company's concern about the computer
+service's actions and the seriousness with which it regards those actions.
+Master Lock Company has every intention of preserving and protecting the
+reputation and goodwill associated with its products and, if necessary, will
+take every legal recourse available to it to do so.
+
+    Under the present circumstances, however, our client would first like to
+give you the opportunity to take measures to prevent activities that it can
+only view as malicious both toward itself and toward its customers.  We
+therefore request that you see to the immediate and permanent cessation of the
+actions described above.  Your compliance with this request is all that is
+required for an amicable resolution of this matter.
+
+                  Your cooperation will be much appreciated.
+
+
+                                                 Very truly yours,
+
+                                                 Terrence J. Farrell
+-------------------------------------------------------------------------------
+This letter is of course talking about phile #6 of Phrack Issue I, entitled,
+"How To Pick Master Locks".  It was kinda funny but they even had a misspelled
+word in their letter, that I corrected above.  They sent it to Taran King in
+certified mail, in which he had to sign for it.  Taran has since responded with
+the following letter:
+-------------------------------------------------------------------------------
+         Dear Sirs,                                   4/1/86
+
+    My name is Taran King, as you so easily researched, and I used to run Metal
+Shop, an electronic bulletin board system.  I currently run a private line for
+personal friends of mine, and if asked, I distribute "general files" for them.
+The fact that I distributed the file is hardly the point.  I merely obtained it
+from the authors of the file and distributed it to other sources, who
+apparently distributed it other places.  If I am responsible for this file, I
+believe you should find a number of other authors also.
+
+    It is not only this file that you have written me about that the
+information about the "secret" to picking Master locks is included in, but also
+a number of other files that have been circulating for years.  It is old
+information, someone just re-published it.  Although on this topic, I am not
+well informed, I believe it is legal to print information on such a topic.  We
+do not condone the actions promoted by the files, but merely inform the public
+on the topic of this.  I hate to run on, but I wish to make my point as clearly
+as possible.
+    If I, being one of the people it was passed through, am responsible for the
+crime rate today of people picking Master, American, or any other company's
+locks, then I believe anyone who has the file, or has read books should be
+arrested on this.  I believe Paladin Press publishes a number of books on this
+topic.  I have seen one of the "Picking Master Locks in 3-Easy Steps!" type
+books and as far as I know, it's still in publication and distribution.
+    I hope I'm not sounding disrespectful or condescending, but it annoys me to
+a great degree when I must be questioned by my father about a letter that has
+come in the mail from a law firm in New York.  Please expect a letter from him
+inquiring upon the topic that you have written me on.  If you wish to have
+further discussion, feel free to call me at my voice line whenever you want to
+at (314) XXX-XXXX.  Don't play funny like you did with the letter and reverse
+the charges or something entertaining like that please.
+
+                                            Sincerely,
+
+                                            Taran King
+-------------------------------------------------------------------------------
+If any of you are wondering as to how they found Taran, well CN/A is not
+exclusively for phone phreaks and the number to Metal Shop was published in
+Phrack I in most of the files. My theory about how they found this file is:
+
+A. Some agent type is looking around (hell we all know they are out there), he
+   sees the file and passes it on to Master Lock Company;
+B. Some rodent dork type whose dad works for Master Lock Company sees it and
+   says, "Hey Dad, look, this is really neat!"
+
+I guess it really doesn't matter... Knight Lightning
+_______________________________________________________________________________
+
+Lex Luthor Speaks About TWCB                              Sunday March 22, 1986
+----------------------------
+The following is a message from Lex Luthor regarding TWCB Inc.
+-------------------------------------------------------------------------------
+It has been brought to my attention that TWCB Inc. is "throwing around large
+amounts of BS involving me". I have NEVER spoken to them, not on a conference,
+bbs, or anything.
+
+They have no affiliation with The Legion of Doom phreak group, nor The Legion
+Of Hackers hack group. Any references they make regarding me or any member of
+LOD or LOH should be disregarded since it's probably bullshit.
+
+TUC is working on Project Educate but there are no dates as of yet when an
+issue will be released. He scrapped the old first issue and is working on a
+better quality newsletter. I don't really have anything to do with Project
+Educate except that I may contribute some material.
+
+I just thought I would clear this up and if anyone hears anything different,
+please send me email with the information.
+
+One other thing that is on my mind is how some phreaks/hacks put down 2600
+Magazine as not being that great, not providing enough technical info, or
+providing too technical, etc. Well compared to the other rags out there, 2600
+does a pretty damn good job and are very consistent, you never have to worry
+about getting ripped off by them, and they are trustworthy. I don't agree with
+some of the ways they do things, but overall they are pretty good.
+
+I just wanted to get a few things off my chest.
+
+          Lex
+_______________________________________________________________________________
+
+TRASk, Animator, Ogre Ogre busted                            408 Under Siege
+----------------------------------                           ---------------
+This all happened towards the end of the week after the Phoenix Phortress Sting
+Operation.
+
+TRASk the sysop of Shattered World Elite, carded an IBM PC.  The person whose
+house it was to be delivered, happened to be at home when it arrived.  The
+owners promptly called the police who then set up a stake out and waited for an
+unsuspecting TRASk to waltz over and pick it up.  TRASk did and of course was
+caught red handed.
+
+Walking up to the house but staying on the street was the Animator.  He didn't
+like the looks of the situation and didn't stop walking.  He went to the home
+of BelGarion and Ogre Ogre (brothers).  Unknown to him he had been followed
+over.  Since he had cut school that day he stayed over there until 4PM.
+BelGarion and Ogre Ogre went to Animator's house and took all his computer
+equipment and illegally carded shit.  They hid it all in their house.  Minutes
+after Animator left BelGarion's home, he was picked up by the police.  He was
+then taken to Juvenile Detention where he found TRASk.
+
+Meanwhile the police went to TRASk's house first and took all his shit
+including the bbs, then over to Animator's.  When they got to Animator's house
+and couldn't find anything, his little brother told them that BelGarion and
+Ogre Ogre took everything. They then went to BelGarion's house where they found
+not only Animator's carded material but BelGarion's and Ogre Ogre's as well.
+
+The four of them spent the weekend together in Juvenile Detention.
+
+The charges included:
+
+o Fraudulent use of a credit card
+o Grand theft
+o Possession of stolen property
+
+The merchandise found at BelGarion's was in excess of $3,000.
+
+Being that BelGarion is 18 years old, Ogre Ogre, his younger brother, took full
+responsibility for the crimes.  As a result the charges against BelGarion were
+dropped.
+
+The court case is expected to take place in mid-April 1986.
+
+The interesting part about this story is that TRASk and the others were members
+of the Nihilist Order.  This group had most of its members busted or under
+surveillance already due to the Phoenix Phortress Sting Operation in Fremont,
+California.  Is there a connection?
+
+BelGarion says no, and that the Nihilist Order was really a loosely connected
+bunch.  It was however started by TRASk and The Highwayman.
+
+TRASk was released with a $100 fine and probation and 100 hours of community
+(civil) service work.  His bbs, The Shattered World Elite, will be going back
+up sometime in the future.
+
+For information about the Phoenix Phortress Sting Operation see Phrack World
+News Issue III.
+
+  Information provided by BelGarion 408 in an interview with Knight Lightning
+_______________________________________________________________________________
+
+Robin Hood and The Sultan Busted                                408 Under Siege
+--------------------------------                                ---------------
+This event took place around the last week of March in California, the 408
+area.
+
+Robin Hood had sprained his ankle at a wrestling meet and as a result was laid
+up at home for several days.  On one such day, he awoke at 1:30 PM in the
+afternoon to hear people outside his house, trying to force his doors opened.
+Hobbling around on his crutches, he made it to the kitchen where he ran into
+three police officers, two special investigators, and one guy from PacBell
+Security.
+
+His first cry was, "You had better have a warrant!"  Sure enough they did.  He
+noticed MCI codes and dialups written on it as well as passwords to TRW.
+(Editor's Note: Obviously what they were looking for.)   They went to his room
+and went through his computer disks (one of which was labeled phreaking and
+hacking, they jumped for that one), printouts, notebooks, and anything else
+they could find.  They took everything including his modem, printer, phone, and
+computer.
+
+Among what was confiscated were printouts of Phrack Issues I-III, Hack
+Newsletter (all issues to date), tons of other G-philes, and Lex Luthor's
+Hacking Cosmos series.   Also taken were all of his board numbers he was on and
+all his passwords.  Luckily for Metal Shop PRIVATE, he had not yet received the
+new general password.  Boards that should be wary include the Alliance and
+P-80.
+
+His charges include:
+
+o Annoying Calls (Scanning Prefixes)
+o Defrauding the phone company
+o Illegal entry (Hacking)
+o Scanning MCI dialups (I don't know what the legal name for that would be)
+
+His and Sultan's court case comes up on April 18th 1986 1:00 PM.
+
+As for the Sultan, upon being busted, Robin Hood tried to get in touch with him
+at school, not knowing that the group that had paid him a visit had come from
+the Sultan's earlier around 11:30 AM.  When he finally did reach him around
+4:00 PM after school at swim practice, it was much too late.  Sultan's dad
+supposedly held a government related job. (I have no idea if it was a political
+one or not).
+
+The police had grabbed everything Sultan had as well, including his phone.
+Since his bust he has had his phone line disconnected.
+
+Robin Hood said that he was told that he had been under surveillance for 2-3
+months previous to his arrest.
+
+He also recalled that the police had a third warrant for someone in a different
+town.  He did not recognize the name, nor did he hear anything about it later.
+
+(Editor's Note: Their accounts on Metal Shop PRIVATE were removed long ago, so
+ MSP users don't be worried.)
+
+ Information provided by Robin Hood during an interview with Knight Lightning
+_______________________________________________________________________________
+
+TWCB: Peter Arrested Again                                          TAP Trouble
+--------------------------                                          -----------
+In the last week of March, while on spring break, Peter of TWCB Inc. was
+arrested (or maybe just picked up) for leaving his home while under a court
+order to stay confined there under his mother's reconnaissance.
+
+He was picked up by the same detective that busted TWCB Inc. in the first
+place. Evidently he had been staking out their condominium for some time.
+
+Not only does this add to their LARGE record and current charges, but it will
+be used to show the court that TWCB's mom has no control over them.  This will
+hurt their defense.
+
+Many questions have arisen about the upcoming court case against TWCB.  Most
+notably, how will they be able to publish TAP Magazine with such a record and
+constant surveillance?  Since their bust was basically non-phreak/hack related
+maybe there is no real reason to fear any problems arising of information
+trading for a lighter sentence if (when) found guilty.
+
+However, their bust also concerned fraudulent use of a credit card.  What if
+that were to be tied in to phreak/hack bulletin boards?
+-------------------------------------------------------------------------------
+Since the topic of TWCB has already been brought up, I'd like to mention some
+of the other things that have been going on concerning them.
+
+Fights breaking out between them and Sigmund Fraud have cleared up.  This does
+not necessarily mean that they will not resume.  Fights with Slave Driver that
+led to their being kicked off of Stronghold East Elite, have also cleared up.
+Not wanting to have a reputation for kicking people off SEE for personal
+reasons, Slave Driver has allowed TWCB to return.  It is not yet known if they
+have done so as of yet.
+
+On the other hand, with their co-sysop access, TWCB kicked Broadway Hacker off
+of Spectre III (Which is sysoped by The Overlord of 815).  He in turn kicked
+them off of the Radio Station BBS.  Hostilities raged between the two, but
+Broadway Hacker publicly apologized on Metal Shop (and I suppose on several
+other bbses as well) to TWCB, and asked them to remove their vulgar posts about
+him.  TWCB made no comment.
+
+Broadway Hacker did kick TWCB off The Radio Station.  Later he welcomed them
+back on, but now with their refusal to call, his invitation no longer exists.
+_______________________________________________________________________________
+
+SBS Acquisition Completed                                            March 1986
+-------------------------
+On February 28, MCI completed its acquisition of Satellite Business Systems
+from IBM in exchange for approximately 47 million shares of MCI Common stock,
+of 16.7 percent of the 282 million shares now outstanding.  The Federal
+Communications Commission (FCC) approved the transfer to MCI of authorizations
+held by SBS on February 14.  The transaction was announced as an agreement in
+principle on June 25, 1985.
+
+The majority of SBS employees have joined MCI, bringing MCI's employment to
+14,800.
+
+Initially, for SBS's 200,000 customers, the acquisition brings no change in
+service or rates.  Eventually, the SBS system will be combined with MCI's more
+extensive domestic and international network.
+
+                       Taken from MCI World, March 1986
+_______________________________________________________________________________
+
+                                ==Phrack Inc.==
+
+                    Volume One, Issue Five, Phile #11 of 12
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                  ///\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\\\
+Metal Shop PRIVATE\\\  Phrack World News Issue 4 Part 2  ///_  _       _______
+Metal Shop AE      \\\                                  ///| \/ |     / _____/
+Metal Shop Brewery  \\\           Compiled by          /// |_||_|etal/ /hop
+                     \\\                              ///  _________/ /
+Present PWN IV        \\\///\\ Knight Lightning //\\\///  /__________/
+--------------               \-^^^^^^-^^^^^^^^^-/             Triad
+_______________________________________________________________________________
+
+More Computel                                             Sunday March 29, 1986
+-------------                                             ---------------------
+The following post was seen on Stronghold East Elite on the above date,
+concerning Computel.  I am reprinting it in Phrack for the sole purpose to
+spread this important news and to help 2600 Magazine get to the bottom of this
+mess, and to help everyone get their money back.
+-------------------------------------------------------------------------------
+People,
+    PLEASE tell us whatever you know about Computel, even if it doesn't seem
+important.  We are charging full speed ahead with our investigation and we've
+already uncovered some wild things but we can't reveal what we have until we're
+finished. We also need info on that old magazine called Tel from the 70's.
+
+Yes, we did determine that there was a connection between the two but that's
+all we can say right now.  Any info or even back copies would help. We need
+people to actually complain about losing money.  So far that's been the hardest
+thing to do.  Phone phreaks as a rule don't seem to want to put their name on
+anything, but if you've lost money, this is the only way we can get it back for
+you and at the same time, stop this operation.
+
+We need people who live near or in Van Nuys, California. We need those of you
+with special access to credit information or phone information to get in touch
+with us. PLEASE DON'T DELAY!  Send us E-mail or call (516) 751-2600.
+
+                      Information posted by 2600 Magazine
+-------------------------------------------------------------------------------
+Editor's Note: Thomas Covenant added that he had heard that Computel is
+               unregistered and plans on staying that way.  Thus the Better
+               Business Bureau can do nothing.
+_______________________________________________________________________________
+
+Dr. Who in Trouble                                       Tuesday March 31, 1986
+------------------
+The following is Lex Luthor's interpretation and information on the Dr. Who
+story.  He also discusses Twilight Zone and Catch 22.  It was posted in several
+places (most notably Stronghold East Elite) and was confirmed in interview with
+Lex Luthor by Knight Lightning on April 4, 1986.
+-------------------------------------------------------------------------------
+The Twilight Zone will be back up in 1-2 weeks. Those who Marauder wants on
+will be contacted with all the new logon info, along with a number to reach it
+at.  He has been doing some mods to the software so the board has been down.
+Silver Spy, Sysop of Catch-22 has had some phone problems and as soon as the
+phone company fixes it he will have it back up. Both boards did go down for a
+few days after the Doctor Who bust, but after we found out why he was busted,
+the boards went back up.
+
+The Secret Service came to Who's house and took everything, he was not home at
+the time, but after 1-2 days, they finally got around to questioning him. As
+you know, the Secret Service has been doing a lot of credit card
+investigations. Initially Pit Fiend of CA was busted for carding (Editor's
+Note: See last issue's quick notes as to Pit Fiend) and at the time he was
+speaking w/Who from time to time, thus some believe Who's bust was a result of
+P.F. leaking info to the S.S.
+
+LOD/H was not shaken up too much from Who's bust mainly because it was not
+Phreak/Hack related, merely credit related which LOD/H is not involved in. Who
+did not card anything, but we believe the S.S.'s motive for busting him was use
+of TRW. Incidentally, Who had a DNR on his line for 7 months some say it was
+for over a year, but either way, its a hell of a long time! That's about it,
+anyone need specific details, or heard anything otherwise let me know.
+
+                                      Lex
+
+                      Information provided by Lex Luthor
+
+(Editor's Note: Lex Luthor also mentioned that Dr. Who is being sued by AllNet)
+_______________________________________________________________________________
+
+2300 Club Members Busted                                              Cleveland
+------------------------                                              ---------
+Two have been caught for fraudulent use of a credit card and one has been
+arrested for car theft.
+
+The 2300 Club is now being compared and treated as a miniature mafia by local
+authorities.  This is mainly for other crimes including the blowing up of cars.
+King Blotto was, at one time at least, a member of this group.  There is
+absolutely NO information regarding King Blotto as being busted or as still
+being a member of the 2300 Club.
+_______________________________________________________________________________
+
+New Phreak/Hack Group                                             April, 6 1986
+---------------------
+The Dark Creaper (916), Brew Associates (215), Major Havoc (301), and one other
+whose handle is unknown to me at the current time are forming a new phreak/hack
+group.  Its name is "The IBM Syndicate".  They are currently looking for
+members to join.  Their bulletin boards, which are currently more or less
+public, will very soon be going private, thus making it harder to become a
+member.  Eventually the group will have 2 bbses and 2 AEs.  Mainly for the
+exchange of files and IBM kracked wares.  All of these bbses will be run on of
+course IBM, and I assume that having an IBM is a requirement to become a
+member.
+
+  Information provided by Dark Creaper through interview by Knight Lightning
+_______________________________________________________________________________
+
+Oryan Quest Busted/415 Gets Hit Again                             April 6, 1986
+-------------------------------------
+On Wednesday, April 2nd 1986, Oryan Quest was arrested on charges of computer
+invasion.  Technically they only had him on one charge but later evidence
+accounted for the other two.
+
+Oryan Quest was "busted" for hacking AT&T Mail, which is roughly similar to MCI
+Mail. He had three different accounts, but the San Mateo Police and FBI only
+had suspicion of one.  When they searched his home they found two more written
+down.
+
+The charges against Oryan Quest were dropped for several reasons:
+
+1. Illegal Search (they didn't have a warrant)
+2. Police Brutality and Harassment (pushed him around and slammed his head into
+   a car)
+
+The authorities searched his house while Oryan Quest was at school, which is
+where they later arrested him.
+
+What was taken includes the following:
+
+Loads of computer disks
+All printouts (his entire g-phile library)
+10 Meg drive
+Assorted Boxes (Blue, Red, Green, Silver)
+
+His passwords, bbs numbers, codes, etc were undiscovered. (He believes)
+
+No court date had been set as of yet, and it is believed that the prosecuting
+attorney will drop the case due to the earlier illegal proceedings by the SMPD.
+
+Prior to his arrest the SMPD had been monitoring his line and had found that he
+was scanning prefixes.  This is however is inadmissible in a court of law
+because at the time that they were monitoring his line there was not sufficient
+evidence for such action.
+
+AT&T Mail was accessible through an 800 number, which Oryan Quest did call
+direct.
+
+Some words from Oryan
+---------------------
+"I have no intention of quitting hacking."
+
+"My mistake was calling an 800 number direct and for fucking around with AT&T
+in the first place."
+
+"I am more of a hacker than a phreak."
+
+(Editor's note: When asked how he felt about what was happening he replied,
+"I'm not worried about it.")
+-------------------------------------------------------------------------------
+Some other interesting facts about Oryan was that he held a part time job as a
+PacTel Operator.  He, being 15 years old, had lied about his age (saying he was
+16), but now has been fired.
+
+Also SRI has given him a job offer for computer security.  He is thinking about
+it but doesn't plan on accepting it.
+
+   Information provided by Oryan Quest through interview by Knight Lightning
+_______________________________________________________________________________
+
+Overlord 815 Arrested For Check Fraud
+-------------------------------------
+                   "The only reason I got caught was greed."
+
+That was the Overlord (815)'s first statement to me during an interview on
+April 6, 1986.  He says that originally, a long time ago, he concentrated on
+Western Union, but then later turned to credit card fraud.  As he progressed,
+he learned that credit card fraud only worked about 5% of the time.  He wanted
+something that worked 100% of the time.  He found it...check fraud.
+
+In his home town he acquired around $4,000 worth of equipment from 3 stores.
+Some of the merchandise consisted of an Apple //e (with every card possible,
+the best drives, monitors, etc...), a complete Commodore 128 system, and ten
+packs of disks for good measure. His downfall was going back to one of the same
+stores the next day to try it again.
+
+He was instantly caught and tricked by the police to reveal more than he would
+have if he had really known his rights.
+
+Check fraud is a felony crime.  Although I myself am uninformed as to how to
+perform the art of check fraud, it must require a phone because Overlord (815)
+informs me that the police have labeled his crime as Telefelony.  The actual
+charge however is for "theft by deception".
+
+His home was not searched and he has given all the merchandise back.
+
+He had told me that he plans to stop running his bulletin board Spectre III and
+sell his computer.  This is mainly so he cannot be referred to as a computer
+hacker.  IE: The prosecuting lawyer would ask, "Do you have a computer?!" He
+can truthfully say NO.
+
+He plans to have the bbs run from the home of The Master (815) and the number
+would stay the same.
+
+Another account of this story by TWCB Inc, says that Overlord has changed his
+mind and is not selling his computer or taking down Spectre III.
+
+The court date is set at April 9, 1986, Overlord (815) says that the worst that
+can happen is probation, a fine, civil service work, or any combination of the
+three.
+
+ Information provided by Overlord (815) during interview with Knight Lightning
+_______________________________________________________________________________
+
+TAP: Latest News From TWCB                                        April 8, 1986
+--------------------------
+Well, as many of you may have noticed, TWCB Inc. did not fulfill their promise
+of having TAP Magazine out by April 7, 1986.  When asked about this on that
+date, they replied that they had all the stuff, but it had to be typeset,
+formatted, printed, and distributed.  They estimated that they could have it
+done in another four days.  This secondary deadline was also not achieved.
+
+The writers (according to TWCB) include:
+
+    Abbie Hoffman/Ace/Final Impulse/Gary Seven/Knight Lightning/Mark Tabas/
+Taran King/Susan Thunder/The Bootleg/The Cracker/The Firelord/The Metallian/TUC
+
+The magazines supporting TAP include:
+
+        Mad Mad Magazine/High Times/Bootlegger Magazine/Hacker Magazine
+
+Scan Man dropped himself from the TAP Staff.
+
+By issue #6, TWCB plans to have a 112 page magazine.  This is due to the fact
+that by then they plan to be receiving many more articles and will have several
+more companies advertising.
+
+The first issue of TAP Magazine will have articles on the following topics:
+
+ISDN: Parts by Taran King and The Bootleg
+Fiber Optics
+Cellular Phones
+Satellite Jamming
+Moving Satellites
+The Teltec Bust: Surfer Bill/The Firelord/TWCB Inc/Knight Lightning
+Dr. Who Bust
+History of TAP
+RSTS 8.0
+Signalling Systems: Taken from Phrack Inc. Newsletter
+Introduction to PBXs: by Knight Lightning, taken from Phrack Inc. Newsletter
+ROLM: By Monty Python, taken from Phrack Inc. Newsletter
+MCI Overview: by Knight Lightning, taken from Phrack Inc. Newsletter
+New BBS Laws: by Sally Ride, taken from Bootlegger Magazine
+Cosmos: by Lex Luthor and the Legion of Hackers, taken from Bootlegger Magazine
+Private Audience: by Final Impulse, taken from Phrack Inc. Newsletter
+UNIX: by The Cracker
+MAX Profile: by Phantom Phreaker, taken from Phrack Inc. Newsletter
+Crashing Dec 10s: by The Mentor, taken from Phrack Inc. Newsletter
+Pak Time: by Kerrang Khan
+Techniques of Tracing
+ESS: by Mark Tabas
+
+   Information provided by TWCB Inc. during interview with Knight Lightning
+_______________________________________________________________________________
+
+Quick Notes
+-----------
+On March 23, 1986, The Radio Station BBS in New York celebrated its one year
+anniversary.  It now has one meg of storage online.
+-------------------------------------------------------------------------------
+The rumor that Taran King was on a talk/news program in New York discussing
+hacking is completely wrong.  Dead Lord started it, but as yet no one knows
+why.
+-------------------------------------------------------------------------------
+The Tempest in 805 was burglarized in March.  His computer and all other
+equipment among other things were stolen.  This of course explains his absence
+from the bbs world for a while.
+-------------------------------------------------------------------------------
+A reasonably new IBM kracking group, which was formally the Imperial Warlords,
+now known as Five-O, are re-kracking software and claiming it to be original by
+themselves. Futhermore they are placing insulting messages inside the software
+towards certain individuals.
+-------------------------------------------------------------------------------
+The Kidd of 408 got busted for busted for selling codes at his school for five
+dollars a piece.  There was no particular company mentioned.
+-------------------------------------------------------------------------------
+Video Stalker (408) carded some stuff to the home of Sinbad!  Sinbad! told him
+that he would sign for the stuff, and when he did, he was arrested.  No more
+details available.
+-------------------------------------------------------------------------------
+The Tunnel, one of Austin, Texas's oldest phreak/hack boards, has come out of
+the closet.  The Tunnel was revealed on the local news to be run by the
+computer crime division of the Austin Police Department. The two main goals of
+the board were to A) catch carders and B) catch Mentor and Cisban Evil Priest
+trying to sell those stolen computers.  They were very successful at A.
+-------------------------------------------------------------------------------
+Stronghold East elite has announced its new advisors.  Hack Advisor: Lex Luthor
+Phreak Advisor: Blue Buccaneer.  The soon plan to have a name change due to the
+fact that Apple Commander of Stronghold North insists they the two boards are
+affiliated while Slave Driver and Equalizer of Stronghold East feel
+differently.  With instruction from Lex Luthor, SEE has enacted new security
+measures.
+-------------------------------------------------------------------------------
+Thanx to 2600 Magazine, Stronghold East Elite now has the complete court
+transcripts of the bust that took place early last summer, most notably
+concerning Private Sector and 6 others, online for viewing.
+-------------------------------------------------------------------------------
+Sigmund Fraud has been discharged as co-sysop of the Radio Station bbs.
+-------------------------------------------------------------------------------
+Captain Crunch of 512 has stated that an auto-dial program that he wrote and
+uploaded was copied by TWCB Inc., who then claimed it as their own and signed
+their name in it.
+_______________________________________________________________________________
+
+                                ==Phrack Inc.==
+
+                    Volume One, Issue Five, Phile #12 of 12
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                  ///\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\\\
+Metal Shop PRIVATE\\\  Phrack World News Issue 4 Part 3  ///_  _       _______
+Metal Shop AE      \\\                                  ///| \/ |     / _____/
+Metal Shop Brewery  \\\           Compiled by          /// |_||_|etal/ /hop
+                     \\\                              ///  _________/ /
+Present PWN IV        \\\///\\ Knight Lightning //\\\///  /__________/
+--------------               \-^^^^^^-^^^^^^^^^-/             Triad
+_______________________________________________________________________________
+
+             Demise of Phreakdom in Florida:  The Story of Teltec
+
+                  Interview with Surfer Bill by The Firelord
+
+                          Written by Knight Lightning
+===============================================================================
+Firelord (FL):  Bill, I wanted to ask you some stuff on that bust you were
+                telling me about.
+
+Surfer Bill (SB):  Yeah, whatta ya want to know?
+
+FL: Who the hell got busted?
+
+SB: Well, you wanna know who knows a hell of a lot more than me is Jack Flack.
+    He has the subpoena, it's about 40 pages, it lists every single one of
+    their names, and all the charges word for word, it's incredible.
+
+FL: Jack Flack isn't accepting phone calls, it's probably not a very good idea.
+
+SB: Teltec is based in Miami, they got really pissed off that everyone was
+    abusing their services.  I mean using their codes and things like that.
+    These people aren't stupid. I mean they know if you've got a sequential
+    hacker on.  They know because what happens is that their computer registers
+    every single bad code.  So If they see 20000, 20001, 20002, and keeps on
+    going registering as bad codes and all of the sudden 20011 doesn't
+    register, but 20012 does then they know that 20011 is a good code.  What
+    they will do is monitor this code and watch it for abnormal usage. They
+    will be sitting there saying, 'Hey this code has been getting a lot of use
+    in the past few days.'  Then they will put a tracer on, trace the person,
+    tap the line, and start amassing information about the line owner. It is
+    like putting a noose around your own neck!
+
+    Basically what I heard is happening down here is that, I believe, there are
+    five bulletin board systems in the Miami/Fort Lauderdale/Boca Raton area
+    that they are after.
+
+    Caeser's Palace (Sysoped by Caeser D, Whose real name is John Kessler)
+    Parasec  (Sysoped by Mark Barochich {sic})
+    COPS
+    Apple Tree, not Apple Tree I or Apple-Tree II, it was the Apple Tree Phreak
+                BBS, that one everyone now knows as the Catfur.
+    And Plovernet (305).
+
+FL: Didn't you say that Teltec planted agents on all these boards?
+
+SB: Yeah, that's what I was getting to.  I don't know for a fact or anything
+    but, what I hear is that Teltec employees posed as undercover hackers or
+    phreakers and got on to the above listed boards.  They had handles and
+    infiltrated the system, having everyone believe that they were phreakers.
+    Cause what they did was, well obviously they knew what they were talking
+    about after all they worked for the company.  They posted really educated
+    information.  From there I believe they actually posted some Teltec codes.
+    There again, some of this is rumor, some of this is fact, I really couldn't
+    tell you which was which.
+
+FL: Well who all was busted?
+
+SB: Jack Flack, Caeser D (John Kessler), Demetrius Cross, Dave Peters, several
+    others of course.  One whole family got busted, the father, the son, and
+    the daughter.  There is a list of thirty-eight people, their actual names
+    were published in the Miami Review, which is a lawyer newspaper that goes
+    to all the lawyers and judges in the Miami area.  Another interesting thing
+    is that the list mentioned a John Doe and a Jane Doe. There was a clause
+    that said these two people are to be named at a later date, so who knows
+    who that could be or even it was more than one person.
+
+FL: You say Lex Luthor escaped?
+
+SB: Yes he did.
+
+FL: They were gonna snag him, but he escaped to California.
+
+SB: I don't know exactly if they had him or whether they were gonna bust him or
+    not but I know he was not mentioned.
+
+FL: Maybe he was one of the John or Jane Doe people.
+
+SB: Most of the stuff that I know is basically public information so I don't
+    know anything about that John and Jane Doe stuff.
+
+SB: An important point is that the Teltec agents posted some codes and then
+    monitored those codes.  I believe they cannot bust you for using those
+    numbers because that's a form of entrapment.  Instead what they'll do is
+    monitor the calls, trace the calls, and then they will know who they are
+    dealing with.
+
+FL: They'll hook up a dialed number recorder (DNR) on the line.
+
+SB: Well what this whole deal is doing is sorta pointing a finger of blame.
+    Both people are wrong, Teltec is wrong in using entrapment to try and catch
+    you, and you are wrong for using their codes to phreak.  So what they do is
+    keep an eye on you.  So then they say "ah ha" this guy, John Doe over here
+    is using this code.  We know he has been abusing our system and now we are
+    gonna keep an eye on him.  So when this code goes dead, we're gonna watch
+    and see if he uses any different ones and if he does, we'll bust him.
+
+    The main thing that's gonna come out of this court case is that they are
+    gonna go after the the 5 people that were the system operators of the
+    bbses. They're not really after the average user, what I think is happening
+    is that the average users are going to be used as witnesses against the
+    system operators.
+
+    The scary part about this case is that it is really pretty big because, it
+    may set a precedent.  If the judge rules in favor of Teltec and then Teltec
+    presses charges, the subpoena says that there is a minimal of $5000 damage,
+    and that's what they're seeking.  So its gotta be well over $5000 damages.
+    I tell you one thing, from the amount of money and information Teltec has
+    put into this they are really determined to press charges.  They invested a
+    lot of money as far as lawyers and investigators.  Another scary part of
+    this story is that Teltec has not made the evidence that they have against
+    the thirty-eight people public, as far as I know, and that's what everyone
+    is afraid of.  The average user doesn't know what he is up against.
+
+FL: I bet the majority of the people on those boards are scared shitless now.
+
+SB: Oh yeah, everybody is, its like the whole city of Miami is.  Also I hear
+    that Sprint and MCI will be cracking down in the future.  They are most
+    likely waiting to see how this case goes.
+
+FL: Is Teltec the major service down there that everybody uses?
+
+SB: Not really, it's one of many.  The popular one these days is MCI cause it
+    only has those 5 digit codes.
+
+FL: I heard Teltec gave shitty connections.
+
+SB: Yeah, that's funny because, I was talking to Jack Flack, and I said if you
+    wanna crack up the people in the courtroom and you know that they are
+    definitely gonna bust you, and that you're guilty beyond a shadow of a
+    doubt, make a joke if they ask you what you know about Teltec say, "Alls I
+    know about Teltec is that their connections to California are really
+    shitty!"  I don't know if they'd be too happy about hearing that one!
+
+FL: So they are really gonna take care of this aren't they?
+
+SB: Yeah but Teltec's main goal is to really get the system operators. You
+    should read this subpoena here, it talks about the system operators.
+    It says that the sysops "organized, financed, directed, and oversaw the
+    illicit posting and trading of Teltec codes"  "They failed to delete the
+    messages containing illegal information."  You see so the sysops are guilty
+    cause they didn't delete the messages.
+
+FL: The thing that could've solved all this is if people used random hackers
+    and random destination numbers, like MegaPhreak.
+
+SB: Another point is that even though you may be using a random hacker, most
+    people aren't gonna be using the system at 3 a.m. to 4 a.m.  The best time
+    to scan is during normal business hours.
+
+FL: That's true, after all you don't need 10,000 codes.
+
+SB: Well anyway, I think that they are really after the system operators.  And
+    if Teltec wins this case it will set a precedent.  If all that happens then
+    I expect that we are gonna see a lot more of these cases popping up all
+    around the country.
+-------------------------------------------------------------------------------
+Editor's notes: There is some talk about there actually being 6 boards being
+                busted and not just 5.  Also the reference that Lex Luthor had
+                any involvement or close calls with Teltec is only rumor.
+                Other reports from 305ers who wish to remain un-named state
+                that MCI has indeed stepped up its war on phreakers and
+                hackers.  Sysops, I really hope you watch who you let on.
+
+                Remember, a filter or fee for a bbs can easily be handled by
+                agents or investigators.  The best way to check on people is
+                through references.
+
+                TWCB was also online during this interview, but as they gave
+                little or no input to the actual content of this file all
+                remarks from TWCB have been screened as they were worthless.
+
+                The original interview was done on a conference and recorded on
+                cassette tape which was delivered to me.  After which I wrote
+                this file.  This file was given permission to be printed in
+                Phrack World News by The Firelord of 307 NPA.
+
+- Knight Lightning
+_______________________________________________________________________________
+
+Telephone Testimony                                                  March 1986
+-------------------
+Chairman Bill McGowan made a point to the House Subcommittee on
+Telecommunications.  In testimony before the recently reconvened hearings on
+telephone industry competition, McGowan spoke against the "diversification
+frenzy" of the Bell Operating Companies (BOCs).  He told the congressional
+subcommittee that the industry is still in the transition to full competition
+and cautioned against replacing a regulated monopoly with seven unregulated
+ones.
+             Information taken out of MCI World, March 1986 Issue
+_______________________________________________________________________________
+
+Kaptain Krash Busted
+--------------------
+Kaptain Krash was caught stealing American Telephone & Telegraph's (AT&T)
+Teleconferencing time through an 800 PBX posted on P-80.  He has been isolated
+from other members of the underground by his parents.
+-------------------------------------------------------------------------------
+Note from Forest Ranger:
+
+ - LET THIS BE A LESSON TO THOSE WHO USE 800 PBX'S. 800 PBX'S ARE LIKE MAKING
+COLLECT CALLS AS TO WHERE YOUR NUMBER IS AUTOMATICALLY KNOWN.  SO IT IS VERY
+EASY TO TRACE BACK TO YOU WHILE ON THE CONFERENCE OR A LATER CHECK WILL
+INDICATE THE SAME FINDINGS.
+                            Information Provided By
+                 F.R. Communications Newsline Service (c) 1986
+_______________________________________________________________________________
+
+Metal Shop Private Cleans House
+-------------------------------
+On April 13, 1986, Taran King and Knight Lightning repurged the userlog
+deleting over 100 users from Metal Shop Private.  This was mainly because of
+non-callers clogging up the log and to make sure there would be no extra
+accounts to lessen the security of the bbs.
+
+People wishing to become members of Metal Shop Private, should contact Taran
+King or Knight Lightning via email.  They then would be discussed with the
+Metal Shop Staff etc.
+
+_______________________________________________________________________________
+
+Dan Pasquale Seeks New Entertainment
+------------------------------------
+This message is mainly for bbs sysops.  Have you been receiving more calls from
+people in the 415 NPA?  In conversation with Dan Pasquale (See Phoenix
+Phortress Article in PWN III) High Evolutionary was told that Dan plans to try
+his hand at out of state bbses..."for fun."  Let it be remembered that Dan
+Pasquale ran Phoenix Phortress BBS and as such saw posts for other phreak and
+hack bbses.  Furthermore, as a bad habit, several bbsers seem to use the same
+passwords in more than one place.  Therefore it is a possibility that Dan could
+log on to bbses as someone else.
+
+                         "The Radio Station Incident"
+
+Oryan Quest had asked Broadway Hacker to remove him from the userlog for RS's
+own security.  However BH decided not to do it at that time.  Roughly a week
+later, someone using Oryan Quest's password logged onto the Radio Station BBS.
+This person was completely computer illiterate.  Example: He typed "HELP"
+instead of "?" for a menu.  When Broadway Hacker broke onto chat mode this
+Oryan Quest dropped carrier.
+
+Please note: Although the police had to drop charges on Oryan Quest because of
+an illegal search this does not mean that the police couldn't have found his
+passwords.
+
+Broadway also mentioned a rash of new users applying from 415 NPA.
+
+                                Sysops beware.
+
+                         Some Information Provided By
+                 Broadway Hacker/High Evolutionary/Oryan Quest
+_______________________________________________________________________________
+
+Maxfield Speaks
+---------------
+In a Detroit newspaper, John Maxfield was interviewed by a reporter.  Although
+I do not have the article or all the facts pertaining to it, it is known that
+the names mentioned include: Phantom Phreaker, High Evolutionary, Scan Man,
+Music Major, The Bootleg, and Slave Driver.
+
+It is believed that Maxfield had acquired these names from P-80.  However this
+is pure speculation.
+
+                    Information Provided By Various Sources
+_______________________________________________________________________________
+

@@ -1,0 +1,841 @@
+                    Volume One, Issue Four, Phile #9 of 11
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                  ///\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\\\
+Metal Shop PRIVATE\\\  Phrack World News Issue 3 Part 1  ///_  _       _______
+Metal Shop AE      \\\                                  ///| \/ |     / _____/
+Metal Shop Brewery  \\\           Compiled by          /// |_||_|etal/ /hop
+                     \\\                              ///  _________/ /
+Present PWN III       \\\///\\ Knight Lightning //\\\///  /__________/
+---------------              \-^^^^^^-^^^^^^^^^-/             Triad
+_______________________________________________________________________________
+
+MCI Working With BOCs
+---------------------
+PacBell and MCI have combined forces to make the Security Pacific Data
+Transmission Corporation.  Also it has been announced that field trials are
+currently being held for Project Victoria: an integrated voice-data-video
+service for homes and small businesses.
+
+BOC stands for Bell Operating Company, and it refers to the small companies
+that were formed after the breakup of AT&T.
+_______________________________________________________________________________
+
+2600 Magazine Vs. Computel                         Wednesday, February 26, 1986
+--------------------------
+The following post was seen on Stronghold East Elite on the above date.
+-------------------------------------------------------------------------------
+We're seriously thinking of taking some action against those nasty people at
+Computel.  We published a letter this month which implied that the whole
+operation was really a fairly sophisticated FBI scam.
+
+We need to know as many facts as possible. Please contact us on Stronghold East
+thru e-mail, in person, or call (516) 751-2600.  If we're not around, leave a
+message saying when you'll call back and we'll try to be there.
+
+Tell us if you've had personal experience with Computel or if you know others
+who have. If anyone has cancelled checks or the equivalent, let us know!
+
+Also, if anyone can send us a Computel ad, which somehow everyone here at 2600
+managed to miss, it would be helpful. Send that to:
+
+                                     2600
+                                   PO Box 99
+                            Middle Island, NY 11953
+
+Note: That's not our subscription address.  Subscriptions are at PO Box 752.
+
+We may not be able to get these people prosecuted, but we can sure raise one
+hell of a stink trying.
+
+                                    2600/eg
+
+Let it be said that hackers and phreaks will never stand aside
+and be ripped off!
+-------------------------------------------------------------------------------
+At this time we at Phrack have been able to uncover nothing more about the
+Computel situation.
+                      Information provided by (of course)
+
+                                 2600 Magazine
+_______________________________________________________________________________
+
+Mister Carding Busted
+---------------------
+Mister Carding first started in the profession of which his name comes forth in
+the summer of 1984.  Since then he has accumulated roughly $45,000 worth of
+merchandise.
+
+He was caught once before in the summer of 1985 by Federal agents.  However, as
+the investigation went on, they didn't have enough material and dropped the
+charges.
+
+Somewhere around the fourth week of February he was caught again, this time by
+local authorities.  Here is how it all started:
+
+"Two months ago, I had tons of stuff coming in and had another guy picking it
+up.  One night two weeks or so ago I had him go out to pick up a 20 meg 3 1/2
+inch hard drive.  It was only the second time I had used that place as a drop
+spot.  Unfortunately, he walked right into a police stakeout and he was
+followed, first to my house and then to his own."
+
+The next day the police went to the house of the friend and arrested him.  He
+willingly signed an affidavit stating that Mr. Carding was the mastermind
+behind the whole operation and that he was just an accomplice.
+
+The court date has not yet been set but his crimes are as follows:
+
+-  Fraudulent use of a credit card.
+-  Possession of stolen merchandise in excessive amounts.
+-  Computer Invasion (Hacking).
+
+On March 6, 1986:
+
+- The police confiscated his modem.  It had been carded.
+- He had a meeting with the detectives, in which he had to take a lie detector
+  test.  They asked him if he was lying about any part of the case, if he
+  hacked into computers, and if he was using one specific person's card.
+- He failed the test.
+
+The police believe he hacked into the computer of a bank in New Jersey, Mr.
+carding denies all of it.  However it is the truth.
+
+Most people didn't know it but Mr. Carding was one of the better hackers around
+and should be remembered.
+
+He is pleading innocent to all charges and has signed a reverse affidavit
+stating that the other guy was the mastermind.
+
+He, as of this writing, has not been arrested but expects to have full charges
+brought on him within the next week.
+
+                    Information provided by Mister Carding
+_______________________________________________________________________________
+
+Boston Strangler Caught Scanning
+--------------------------------
+The Boston Strangler was caught scanning, he wasn't scanning an extender, he
+was scanning a prefix in his home town. The phone company shut his line off and
+now Boston Strangler may have to go to court, he claims he is under 1XB but
+this is doubtful.
+
+An employee of the phone company actually called him and told him to not use
+the phone because his supervisor was checking for trouble on the line.
+Apparently Boston Strangler scanned the entire prefix and once he was finished
+the phone company called and said that he was in a lot of trouble.
+
+                        Information provided by taRfruS
+_______________________________________________________________________________
+
+AT&T Suing The BOCs
+-------------------
+American Telephone and Telegraph is allegedly filing an 80 million dollar
+lawsuit on the Bell Operating Companies.  They filed a complaint with the FCC
+in January 1986 that claims that certain BOCs owe AT&T 80 million dollars
+because they failed to perform specific duties which were part of their billing
+and collection contracts.
+
+It is not known how much each company owes with the exception of Northwestern
+Bell who owes $2 million.
+
+                     Information provided by Jester Sluggo
+_______________________________________________________________________________
+
+Speed Demon Elite; Will It Return?
+----------------------------------
+The rumors are true, Radical Rocker did forget to pay his phone bill, and as a
+result Speed Demon Elite was shut down.
+
+Any talk about SDE being busted for having credit card information on the board
+should be ignored as it is completely false and only one phreak's
+interpretation of past events.
+
+Radical Rocker has stated that everyone should expect Speed Demon Elite to
+return in the near future.
+
+                               Speed Demon Elite
+                                 415-522-3074
+
+                    Information provided by Radical Rocker
+                Thanx to Investigative Reporting by Taran King
+_______________________________________________________________________________
+
+Private Sector Damaged/Returning
+--------------------------------
+The Private Sector, which was supposed to have been returned by the 16th of
+February, 1986 had been damaged in the hands of the authorities.  According to
+them, "one of the cards blew up."  They say that this happened before they had
+the chance to erase the two "illegal" files they found on the hard drive.  So
+now then they had to hold onto it a bit longer.  Naturally 2600 Magazine
+suspected intentional foul play and stepped up the pressure on them to return
+Private Sector. 2600 suspected the card they authorities were referring to was
+the hard disk controller. They wouldn't stick another controller from another
+machine in and they wouldn't let 2600 Magazine even look at the machine.  What
+an outrage!
+-------------------------------------------------------------------------------
+On Friday, February 28, 2600 Magazine announced the following.
+-------------------------------------------------------------------------------
+Private Sector has finally been returned, and is in the process of being
+repaired.  It will be back up in the near future at the same number as before;
+201-366-4431.  Call 2600 Magazine at 516-751-2600 for more details.
+
+At the current writing of this article, Private Sector is up and running.  Only
+time will tell if it will ever be the great bbs it once was.
+
+                     Information provided by 2600 Magazine
+_______________________________________________________________________________
+
+TelePub'86
+----------
+The 1986 TelePub meeting (originally planned up by Sigmund Fraud) was held on
+the second floor of the Days Inn Hotel at 440 W.57th St. New York, NY.
+Supposedly the first Telepub meeting since 1980, when one was held in
+Washington DC.  The meeting room was called by some "The Colosseum."
+
+There was a $10 admission fee to the meeting room.  Supposedly Chesire
+Catalyst's girlfriend (who some said was blind and had a seeing eye dog) was
+collecting the money and handing out the name tags.
+
+Some say there were about 25-30 people there in total, but Broadway Hacker
+stated that there was only 23.  This included:
+
+Broadway Hacker
+Chesire Catalyst + girlfriend
+Dr. PHATE (P>hreaks H>ackers A>nd T>elecom E>nthusiasts)
+Karl Marx
+Lou Dolinar (reporter from Newsday Magazine in Long Island)
+Ninja NYC
+Private Sector + girl (Incidentally the programmer of the NEW Private Sector
+                       BBS)
+Sammy Junkins
+Scan Man
+Sigmund Fraud + friend
+Slave Driver
+The Bootleg
+The Cracker
+The Lineman
+2600 Magazine - Tim and Paul
+
+Most noted for not showing up were TUC and TWCB Inc.  Since this meeting was
+generally supposed to be about the revival of TAP Magazine, it was VERY
+surprising to some that TWCB didn't go. To others however, this was expected.
+
+Their reason (excuse) has something to do with late plane arrivals and legal
+problems (probably dealing with restrictions due to their probation. Supposedly
+TUC's phone number was posted on the board at the front of the meeting room for
+those who wanted to get in touch with him.
+
+There was basically chit chat until around 11:15 am when Chesire Catalyst began
+talking about CCIS (Common Channel Inter-Office Signaling).  His speech really
+told nothing new but the best part of the discussion came out of the many
+questions that were asked by the audience. Also around 11:15 is when Tim and
+Paul from 2600 Magazine showed up.
+
+A little later, Scan Man and The Bootleg started to discuss the possibilities
+of satellite phreaking, and up & down linking.
+
+A little later, Private Sector appeared and with him came an ad from Personal
+Computing Magazine.  The ad was from none other than Computel.  Computel, the
+supposed and almost definite fed operation magazine was discussed for quite a
+long time.
+
+Chesire Catalyst began to distribute the final issue of TAP.  It was issue #91,
+Spring 1984.  It included articles about credit agencies and UNIX, from BIOC;
+Hacking Western Union, by TUC; Phreaks and hackers Morality, by Big Brother;
+Passport check sums, and Bell Pie, among others.
+
+2600 Magazine gave out their latest issue, February 1986, Volume 3 Number 2 as
+well as other promotional items.
+
+Sigmund Fraud was giving out older issues of TAP.
+
+Among other things, BBS numbers were passed and there were all sorts of
+telecommunication magazines lying around.
+
+There was a break for lunch.  When they returned Scan Man started in on Chesire
+about the money that MANY had sent in to TAP and never received the magazine or
+their money back.  Chesire replied, "It went to pay my bills."  He also made
+other remarks about how he hasn't spent it all and how he may send it back but
+he really didn't ever answer the questions that Scan Man put to him.
+
+       Much of this information came from Slave Driver and Sigmund Fraud
+_______________________________________________________________________________
+
+Metal Shop Brewery
+------------------
+There is a NEW member to the Metal Shop family, thus completing the Metal Shop
+Triad.
+
+      Announcing...
+                               _  _        _______
+                              | \/ |      / _____/
+                              |_||_|etal / /hop
+                              __________/ /
+                             /___________/
+ _______   ________    ________   __        __   ________   _______    __   __
+/  ___  \ /   __   \  |   _____| |  |      |  | |   _____| /   __   \ |  | |  |
+| |___| | |  |__|  |  |  |__     |  |  __  |  | |  |__     |  |__|  | |  |_|  |
+|       / |   _   _/  |     |    |  | |  | |  | |     |    |   _   _/ \_     _/
+|  ___  \ |  | \  \   |   __|    |  |_|  |_|  | |   __|    |  | \  \    \   /
+| |___| | |  |  \  \  |  |_____  |            | |  |_____  |  |  \  \    | |
+\_______/ |__|   \__\ |________| \____________/ |________| |__|   \__\   |_|
+
+                                 314-DWI-8259
+
+               300/1200 Baud, No Parity, 8 Data Bits, 1 Stop Bit.
+
+Sysop: Beer Wolf
+Co-sysop: Cheap Shades
+-------------------------------------------------------------------------------
+ System Configuration:
+
+-  IBM PC with 2 Half Height Teac 360k Floppy Drives
+-  20Meg MiniScribe Hard Drive
+-  Hayes SmartModem 1200
+-  Epson LQ-1500 Printer
+-  Total of 448k of RAM and expecting 2 Meg soon
+-------------------------------------------------------------------------------
+While Metal Shop Brewery is mainly an IBM Pirate Board, it also has interesting
+message bases.
+
+Some of them include these topics:
+
+- New Users
+- Bulletin Boards
+- General Schtuff
+- Programming
+- Things that go BOOM! (Anarchy)
+- Hacking
+- Phreaking
+-------------------------------------------------------------------------------
+Metal Shop Brewery is run on DoubleDos and is a strong supporter of Phrack
+Newsletter.  IBM Pirates Call Today!
+_______________________________________________________________________________
+
+
+                               ==Phrack Inc.==
+
+                    Volume One, Issue Four, Phile #10 of 11
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                  ///\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\\\
+Metal Shop PRIVATE\\\  Phrack World News Issue 3 Part 2  ///_  _       ________
+Metal Shop AE      \\\                                  ///| \/ |     / ______/
+Metal Shop Brewery  \\\           Compiled by          /// |_||_|etal/ /hop
+                     \\\                              ///  _________/ /
+Present PWN III       \\\///\\ Knight Lightning //\\\///  /__________/
+---------------              \-^^^^^^-^^^^^^^^^-/             Triad
+_______________________________________________________________________________
+
+TAP Revival
+-----------
+The TAP meetings in New York hadn't been going well, every week less people
+would show and it was becoming pointless to attend.  Chesire Catalyst makes
+roughly $1000 a month without printing TAP, and really he sees no reason to
+restart.  Now TAP is being taken over by The W(hack)o Cracko Brothers, INC.
+
+Chesire Catalyst has officially given the TAP name over to TWCB Inc. or has he?
+These answers still remain a mystery.  TWCB plans to change the name of the mag
+but not until after issue one is out.
+
+Supposedly, Chesire had over 500 articles that never saw print that he has been
+holding until the re-opening of TAP.  It is unknown if TWCB and the new TAP
+Staff will acquire these articles.  Also it is unknown as too if some of those
+articles were the ones in issue 91 of TAP that was recently distributed at
+TelePub'86 in New York City.
+
+This new TAP has announced its editors as follows:
+
+West Coast Editors: The Bootleg (Chief), The Cracker, and TUC
+East Coast Editor: Susan Thunder & Scan Man
+Central Editors: Knight Lightning and Taran King
+
+TWCB, has stated that on the day the first issue of TAP sees print, they will
+quit phreaking, as they will undoubtedly be watched very closely from then on.
+
+The status of Whackoland bbs is uncertain.  However TWCB has announced plans
+for a UNIX or Motorola system.
+
+The Staff members include: TWCB Inc., Knight Lightning, Taran King, Scan Man,
+                           The Firelord, Final Impulse, Ninja NYC, Sigmund
+                           Fraud, Silver Spy, The Bootleg, The Cracker, Surfer
+                           Bill, and The Marauder.  Also unconfirmed reports
+                           state that the LOD will be taking an active part in
+                           this new magazine.
+
+Subscription rates are as follows:
+
+$4.00    Singular issue
+$20.00   Half year/6 month subscription
+$35.00   Year subscription
+$100.00  Corporate year subscription, for businesses or government agencies
+
+The $35/One year subscription includes:
+
+o  A years subscription to Tap Magazine (12, 30+ Page Issues).
+o  A free account to TWCB's Unix system (Limited offer).
+o  A free account to TWCB's Watson Message Center (Limited offer).
+
+The magazine will consist of 30-40 color pages and will be using the same type
+of paper as most common everyday magazines (ie. TIME, Newsweek etc).  TAP will
+be published every month.
+
+Tele-Pub meetings will be held once a month at TAP offices in St.Louis, MO.
+
+TWCB is supposedly in the process of organizing a TAP-Tele-Pub Convention to be
+held in St. Louis at the Marriot Hotel (most likely). TWCB says it will be THE
+Largest Phreak/Hackers convention EVER held! They are planning it for the
+Summer of 1986.
+
+For more information on how to become a staff member to to subscribe to TAP
+call 314-527-TWCB.
+
+TAP Offices are located at 12072 Manchester Road, Suite 21, Des Peres, MO
+63131.  Send all subscriptions there in money, checks, or money orders made out
+to Tap Magazine. (Editor's note: It is uncertain as to the true existence of
+this office.  There is always the possibility of it being a mail forwarding
+service).
+-------------------------------------------------------------------------------
+Some of the articles to expect in the first issue are interviews with The
+Bootleg, Scan Man, Surfer Bill (concerning the Teltec Busts), files from
+Bootlegger Magazine Issues (including those from issue #7 which has not yet
+been released, this includes articles from MCI World Magazine, such as the MCI
+World/MCI Security Interview), and NRK 01. TWCB claims to have received over a
+100 articles from TOP Hack/Phreakers.
+-------------------------------------------------------------------------------
+As to the reasons concerning TWCB not appearing at the TAP-TelePub'86, Tim
+posted the following on the Phrack/TAP subboard on Metal Shop PRIVATE:
+
+"Well the meeting totally got screwed I couldn't make it, mainly because
+ Cheshire sorta fucked TAP over. I think he was just in it for the money.  He
+ was supposed to set up a PRIVATE meeting for TAP and it was going to be before
+ the big meeting, well I called some people at the Days in at about 4:00 AM in
+ the morning from the airport, the morning of the meeting, and they say well
+ Cheshire says that the Private meeting is going to be after the Big Meeting
+ and everyone already knows where were going."
+
+"Anyway I couldn't make it cause my plane landed at Laguardi and I was to take
+ the plane back at 11:30 AM, well it takes 45 minutes to get to the Days Inn
+ and didn't want to go to the big meeting because of serious LEGAL troubles."
+
+(Editor's note:  The way I heard it directly from Tim, is that they called from
+ St. Louis International to NYC and heard about the changes and knew about
+ their late plane situation and decided to blow it off.)
+-------------------------------------------------------------------------------
+The following is the story of how TWCB got started with TAP:
+
+At first, there it was... Metal Shop standing proud, the home of Phrack
+Newsletter.  TWCB saw this and put up Whackoland, which many of you may notice
+was made specifically to look like MS.  Furthermore, TWCB was gonna have a
+magazine originally called "Whackoland Gazette" until TWCB realized that with
+Metal Shop and P-80 backing it and not just Whackoland, they would have to
+change the name.  Phrack was supposed to be reprinted in this mag.  The list of
+boards backing it grew quickly.  Still however it was a magazine without a
+name.  Then TWCB started hearing about the revival of TAP and how the meetings
+were not going very well.  They called Chesire Catalyst and started working out
+the preliminary details, which brings us to where we are today.
+-------------------------------------------------------------------------------
+There are those however who would NOT like to see TAP restarted.  Among them,
+2600 Magazine and Project Inform. Who could blame them?  No one likes
+competition. This was okay however until, TWCB got a call from TUC, Lex Luthor,
+Susan Thunder, and Mark Tabas (the staff members of Project Educate). They
+claimed they want TWCB to publish for them, TWCB refused.  Later they received
+a threatening call from TUC, in which they were informed that TUC would have
+security people watching TWCB all the time and when they slipped up...*BOOM*
+
+Now TWCB says that TUC later called and now is fully behind TAP and has
+accepted editorship with TAP.
+-------------------------------------------------------------------------------
+ALL information in this article, excluding the short history and investigative
+sections, was provided by TWCB Inc.  Especially the parts about Project Inform,
+TUC, Lex, etc.
+-------------------------------------------------------------------------------
+TAP's Motto:  Help US fight Your fight! - Join Tap's WAR!
+_______________________________________________________________________________
+
+Phrack/Tap Status Report
+------------------------
+Regardless of the TAP situation, Phrack will remain in publication.  TWCB is
+not very happy about this but, we really don't care.
+
+The reasons that the Teltec Bust story did not appear in this issue of PWN is
+that most of the info we have on it was supplied by Surfer Bill in an interview
+he did with TWCB.  I have the taped interview, but as it was done by TWCB it
+therefore was TAP property.  However, should TAP issue #1 not be in print by
+the time Phrack V is ready, the Teltec story WILL appear in Phrack World News
+Issue Number IV.
+
+:Knight Lightning
+_______________________________________________________________________________
+
+Monty Python Retires
+--------------------
+The following message appeared on Stronghold East Elite on Sunday, February 9,
+1986, 4:50:53 PM.
+-------------------------------------------------------------------------------
+  I have formally retired from the phreaking world, permanently.  I have *NOT*
+been busted or been given any heat by anyone or any corporation.  I just have
+no time what-so-ever to devote myself to give phreaking the appropriate time it
+deserves. Schoolwork is bringing me down, and I have a big research paper
+coming up, plus lots of other work.
+  Honestly, phreaking doesn't seem much fun anymore. I especially hate the
+attitudes of some phreaks (who shall remain nameless) who have their head in
+the clouds, and put down everyone else.  It is quite a pain in the ass, and
+these people look like fools, cause they are usually nothing quite like what
+they think they are.
+  My "retirement" entails the ceasing of myself of calling phreak boards,
+hacking, and trashing. If you want to call me up on a conference, don't bother
+(some of you have done so in the past).  I don't have the time and I am not
+interested.
+
+Later on and be seeing you from time to time...
+
+                                 Monty Python
+-------------------------------------------------------------------------------
+Editor's Note:  Monty Python did ask for his account to be kept active at
+                Stronghold East, so that he may see what's new, from time to
+                time.  Also Monty Python has further stated that he may return
+                to the phreak world this summer.
+_______________________________________________________________________________
+
+Demise of The Sprinter
+----------------------
+On the front page of the Wednesday, February 12, 1986 edition of the Seattle
+P-I were the headlines COMPUTER INVASION CHARGED. Kirkland youth accused of
+snooping. Some of the articles highlights were:
+
+  One Michael P. Wilkerson (The Sprinter) was so successful in bypassing four
+companies computer security.  He could copy or destroy data even the sysops
+couldn't touch. The 18 year old most notably tapped into MicroSoft's
+mainframe, along with 3 other companies, Kenworth Truck, Sunstrand Data
+Control, and Resource Conservation companies.
+
+  Looks like the district attorney is asking for a 90 day sentence and will get
+it due to the cooperation (read plea bargaining) given by Sprinter. During the
+search, the police discovered a list of TRW dial-ups and passwords and a
+handwritten list of Visa, Mastercard, and Amex credit card numbers.
+-------------------------------------------------------------------------------
+It turns out that Sprinter is also under investigation for illegal credit card
+purchases in his home state of California.  Most notably a $1400 bicycle.
+
+A real nice point made by the district attorney is that possession of the list
+of card numbers is NOT a crime.  Only the use of them is illegal.
+-------------------------------------------------------------------------------
+Now that was the Seattle P-I's interpretation of those events, this is
+everything else we at Phrack Inc. have been able to uncover.
+-------------------------------------------------------------------------------
+Sprinter got busted for hacking on a large VAX/VMS system, and since it was
+local to him, he didn't bother to go through an extender. He didn't feel there
+was any danger considering he wasn't using a lead number.
+
+Sprinter was well known for his "bible" of Sprint codes that was always kept
+filled.  His bible and all computer equipment were confiscated.
+
+Sprinter has 4 charges of hacking.  One nice part about this is that since his
+bust, Sprinter has received several job offers for computer security, including
+an offer from MicroSoft Inc.  (Editor's note:  I wonder if MicroSoft will drop
+its charges against Sprinter as a part of the contract should he sign with
+them).
+
+The one interesting twist to this story is that Sprinter's bosses got into
+some deep shit. While people were going through Sprinter's computer things
+(which was in his bosses' office) they found some evidence that led them to
+believe that Sprinter's bosses were large cocaine dealers. Sprinter's bosses
+haven't been heard from since.  Later reports did however tell that 1 of them
+is now serving a 7 year prison sentence and the other is presumed dead.  This
+part is very unspecific because it doesn't say what their basis for this
+judgement are.  Did they find the body? Or is he just missing?
+
+                 Much of this information has been provided by
+                           Sally Ride (Space Cadet),
+                              The Guardian Demon,
+                                      and
+                                 Jester Sluggo
+_______________________________________________________________________________
+
+Some Quick Notes
+----------------
+The Matrix, formally at 415-922-1370, is down due to the hard drive being
+broken.  Dr. Strangelove says that as soon as he can get another hard drive,
+the Matrix will return.
+-------------------------------------------------------------------------------
+Spectre III, run by the Overlord of 815, is back up.  Overlord requests that
+all former users of his system please call it back again.  The number is
+815-874-8534.
+-------------------------------------------------------------------------------
+Unconfirmed reports say that OSUNY, in New York, will soon be returning.
+-------------------------------------------------------------------------------
+GTE Sprint and U.S. Telecom have merged in order to become a stronger
+competitor against MCI and AT&T.
+-------------------------------------------------------------------------------
+Compuserve is now linked with MCI Mail.
+-------------------------------------------------------------------------------
+Pit Fiend of NESSUS was busted for trying to obtain $3500 dollars in gold bars
+by way of credit card fraud.
+-------------------------------------------------------------------------------
+The Missing Link BBS is back.  It is now a public board (or so it is believed).
+The number is 806-799-0016.  Sysop: Egyptian Lover.
+-------------------------------------------------------------------------------
+Because of problems dealing with Phoenix Phortress as well as a growing number
+of rodents, Metal Shop PRIVATE has changed its general password.  It is no
+longer "REQUIRED".  Contact Taran King, Knight Lightning, or Cheap Shades for
+the new general password, if you haven't been contacted yet (and you were/are a
+member).  See story on Phoenix Phortress in this issues PWN.
+-------------------------------------------------------------------------------
+The phreaks in Massachusetts and many other nearby areas are in quite a frenzy
+right now due to a possible bust of Dr. Who 413.  It appears that while at
+school, his parents were showed a search warrant by the Secret Service, who
+then searched through his computer equipment as well as his notes etc.  He
+eventually went home and is currently waiting for results.  There is a very
+high probability that he has by now been busted.  Look for a future story on
+his bust and its after-effects in the next Phrack World News.
+-------------------------------------------------------------------------------
+Phreak Klass 2600 originally died because Red Devil became bored of phreaking.
+Now Crimson Death (Sysop of Hell Phrozen Over) and Videosmith are looking for
+someone to run Phreak Klass 2600 II.
+-------------------------------------------------------------------------------
+Feyd Rautha was NOT busted but did retire from the phreak world. In his own
+words, he is "phazed out" or bored of phreaking.  A word to all, especially
+sysops, there is another Feyd Rautha now.  He is in the 612 (Minneapolis) area.
+Do not confuse him with the old elite mentioned here.
+
+                              ==Phrack Inc.==
+
+                    Volume One, Issue Four, Phile #11 of 11
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+                  ///\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\\\
+Metal Shop PRIVATE\\\  Phrack World News Issue 3 Part 3  ///_  _       ________
+Metal Shop AE      \\\                                  ///| \/ |     / ______/
+Metal Shop Brewery  \\\           Compiled by          /// |_||_|etal/ /hop
+                     \\\                              ///  _________/ /
+Present PWN III       \\\///\\ Knight Lightning //\\\///  /__________/
+---------------              \-^^^^^^-^^^^^^^^^-/             Triad
+_______________________________________________________________________________
+
+Extasyy Revisited
+-----------------
+This is a continuation of the article that appeared in Phrack World News Issue
+Number One, about the breakup of Extasyy Elite.
+
+The following are statements were told to Phrack by The Mentor:
+
+1) I am NOT an FBI Agent.
+2) The Poltergeist turned in all of Extasyy.  I have copies of the statements
+   he made in Fort Worth to the FBI and to the Fort Worth Police Department to
+   get me busted.  I do not know if he gave them Bit Blitz's information or
+   not.
+3) Yes, I made Bit Blitz return a computer.  Bit Blitz promised me a 212
+   AppleCat in exchange for an Apple //e.  Then he failed to deliver the modem
+   after I gave him the system.  This can be verified.
+4) Crustaceo Mutoid is in the Racketeers, which Apple Rebel reassembled. Former
+   Racketeers members who are now regrouped include: Hot Rod, Warezird, and The
+   Micron.
+-------------------------------------------------------------------------------
+The above information should be considered as direct quotes from The Mentor.
+The Apple //e referred to is one of the many stolen Apple //es talked about in
+the story below.
+-------------------------------------------------------------------------------
+A little background on Extasyy.
+
+Extasyy hung out on Hack Net BBS and FWSO, a bbs in Colorado. Poltergeist was
+always bragging about how he was a master computer thief.
+
+The Mentor wanted to try his luck as well. In his case, a not very wise idea.
+-------------------------------------------------------------------------------
+He and two others went to a high school computer room in Hayes County, Texas.
+The room was separate from the rest of the building and one of the windows was
+unlocked.
+
+One of the other two people that went was a student at the school.
+
+It took three car trips to transport all the computers, most of them were kept
+in friend's apartments.  The Mentor gave many of the computers away to friends
+of his, which helped his popularity greatly. He also gave two monitors to
+Poltergeist.  However he neglected to scratch the serial numbers off them.  A
+more or less fatal mistake.
+
+Each of the apartment owners were allowed to keep one computer, as well as the
+other two accomplices.  Gradually the people with the apartments began to hide
+or give away some of the computers themselves.
+
+The Mentor finally took all the rest of the computers to a storage warehouse
+and then gave away or sold what was left of them.
+
+One month later...
+
+In Fort Worth, Texas, The Poltergeist was busted, mainly for credit card fraud,
+but there were many other charges as well.  He talked all about Extasyy and its
+members and when the police found the Mentor's phone number, Poltergeist talked
+some more.  Among his confiscated equipment were two monitors.  The serial
+numbers were checked and this led the police and FBI to the now one month old
+computer theft in Hayes County.
+
+Meanwhile, one of the apartment owners was trying to sell off one of his
+computers to an ex-girl friend.  Unfortunately she knew they were "hot" and
+told the police. (Advice here guys don't try to sell "hot" items to ex-girl
+friends).
+
+Soon after the police took him in and were going to press charges on him as
+being the mastermind thief.  Until he told them the truth about where he got
+the merchandise, implicating The Mentor and the others.
+
+Soon after, the police and FBI had The Mentor, and even though he no longer had
+any of the stolen equipment, a warrant and search turned up many other
+interesting illegal items. His family being prominent in his town, his dad
+wanted him to cooperate fully with the authorities.
+
+Phreaking was basically unheard of by the police in 512 and they wanted to know
+how everyone was doing it.  The Mentor's response was "Blue Boxing".  His town
+is now equipped with 2600 Hertz detectors on the phone lines.  Too bad for
+Southwestern Bell that Mentor lied about blue boxing.
+
+Mentor's dad always had something against The Protestor, if for no other
+reason than the fact that he was the one who got Mentor started into phreaking.
+
+The police were interested in the phreak boards, so Mentor's dad suggested they
+call Protestor's Shack, where The Mentor was a remote sysop.
+
+About this time Mentor had to use the bathroom, or so he told the police.  On
+his way to his restroom he stopped in the kitchen and called The Protestor.
+He kept it very brief with the one way conversation consisting of roughly these
+words, 'Get all the illegal shit off your board now! I'll explain later, just
+do it!'
+
+Never the less, they called Protestor's Shack, only to discover that it was
+busy.
+
+Protestor's Shack went down on February 24, 1986.  At first it was thought that
+Kleptic Wizard, a former Extasyy member, would take over the board in 314
+(St.Louis, MO).  However, Protestor later decided that maybe it was time that
+the board died.  He did add however that he may release his board program as a
+ware sometime in the near future.  Most likely to be found on Kleptic Palace AE
+first.  He also does plan to one day return to the pirate/phreak/hack world.
+
+              The above information was provided by The Protestor
+                         with some parts by The Mentor
+_______________________________________________________________________________
+
+The Radio Station BBS
+---------------------
+Where once stood the famous bulletin board "The Broadway Show", now stands The
+Radio Station. When Broadway Hacker thought he was moving to Washington D.C. he
+took down the Broadway Show and gave the line, 718/615-0580, to another who
+would run this new bbs.  Since then however Broadway Hacker under the handle
+of Program Director is once again running the board, but the remote sysop
+Sigmund Fraud is now in total charge. He validates, he hires the subboard
+sysops.
+-------------------------------------------------------------------------------
+Sysop: Program Director
+Remote Sysop: Sigmund Fraud <-- Runs the board
+
+Subboard Sysops:
+
+General: Pirate Pete
+Sports/Entertainment: White Lotus
+Computer Discussion Forum: Lotus
+Pirate/Trading: No one (The Cheetah was fired)
+Anarchy: No one (The Merc was fired)
+Chemical & Explosives: The Wild Phreak (Gray Mouser was fired)
+Advanced Hacking and Phreaking: No one (Iron Soldier was fired)
+-------------------------------------------------------------------------------
+If you wish to become a subboard sysop, please leave mail or feedback to
+Sigmund Fraud.
+
+The Radio Station is where many LOD members and other old elites hang out.  Its
+also among the first to receive new LOD G-Philes.
+
+The Radio Station receives about 15-20 new posts a day.  Their general board is
+among the most popular for real world controversial topics.
+
+Program Director has put more time and effort into the debugging and upkeep of
+his board than ANY other sysop I've ever known.  Some of the nice features on
+his board are the message responses which can keep a particular subject going
+without interfering with other related subjects.
+
+The Radio Station is a strong supporter of Phrack Newsletter.  Give it a call!
+
+                          718/615-0580 300/1200 Baud
+_______________________________________________________________________________
+
+Phoenix Phortress Stings 7                                      415 Under Siege
+--------------------------                                      ---------------
+On March 5, 1986, the following seven phreaks were arrested in what has come to
+be known as the first computer crime "sting" operation.
+
+Captain Hacker
+Doctor Bob
+Lasertech
+The Adventurer
+The Highwayman
+The Punisher
+The Warden
+
+Many of them or other members of Phoenix Phortress belonged to these groups:
+
+High Mountain Hackers
+Kaos Inc.
+Shadow Brotherhood
+The Nihilist Order (Based in Fremont and Sunnyvale)
+
+Of the seven, three were 15 years old; two were 16; one was 17; and one, 19.
+
+Their charges include:
+
+Several misdemeanors
+Trafficking in stolen long distance service codes
+Trafficking in stolen credit card numbers
+Possession of stolen property
+Possession of dangerous weapons (a martial arts weapon)
+Charging mail-order merchandise to stolen credit card numbers
+Selling stolen property
+Charging calls internationally to telephone service numbers
+
+         Conviction would mean forfeiture of their computer equipment.
+
+Other phreak boards mentioned include:
+
+Bank Vault (Mainly for credit card numbers and tips on credit card scams)
+Phreakers Phortress (Mainly of course for phreak codes and other information)
+-------------------------------------------------------------------------------
+After serving search warrants early Wednesday morning on the seven Fremont
+residences where the young men live with their parents, police confiscated at
+least $12,000 worth of equipment such as computers, modems, monitors, floppy
+disks, and manuals, which contained information ranging from how to make a
+bomb, to the access codes for the Merrill Lynch and Dean Witter Financial
+Services Firm's corporate computers.
+
+The sysop of Phoenix Phortress was The Revenger, who was supposedly Wally
+Richards, a 25 year-old Hayward man who "phreaked back east a little" in New
+Jersey.  He took the phone number under the name of Al Davis.  However he was
+really Sgt. Daniel Pasquale of the Fremont Police Department.
+
+When he introduced his board to other computer users, he called it the "newest,
+coolest, phreak board in town."  (Editor's note: The word for today is
+ENTRAPMENT!).
+
+Pasquale said he got the idea for the sting operation after a 16-year old
+arrested last summer for possession of stolen property "rolled them over
+(narced) He told us all about their operation."
+
+Pasquale used a police department Apple //e computer and equipment, with access
+codes and information provided by eight corporations, including Wells Fargo
+Bank, Sprint, and MCI.
+
+Pasquale said he received more than 2,500 calls from about 130 regular users
+around the country.  The police started to make their first case three days
+after the board went up.
+
+"We had taken the unlisted phone number under the name Al Davis," Pasquale
+said. "In six days, these kids had the name on the bulletin board.  I would
+have needed a search warrant to get that information."
+
+The arrests were made after five months of investigation by Dan Pasquale.
+-------------------------------------------------------------------------------
+Originally compiled by Maxwell's Demon of The Dange Gang, recompiled by Knight
+Lightning.  This file contains parts of articles found in the following
+newspapers:
+
+** The Mercury News
+** The Palo Alto Times-Tribune
+** The Daily Review
+_______________________________________________________________________________
+
+
